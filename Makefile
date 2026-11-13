@@ -6,4 +6,4 @@ endif
 
 .PHONY: build
 build:
-	$(PYTHON) -m zipfile -c template.wox-theme theme.json assets
+	$(PYTHON) -m zipfile -c retro-terminal.wox-theme theme.json assets
