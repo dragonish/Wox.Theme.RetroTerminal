@@ -1,0 +1,192 @@
+{
+  "ThemeId": "ecbd0343-616c-4d95-b7d0-1e49a6cbb5d4",
+  "ThemeName": "i18n:theme_name",
+  "Description": "i18n:theme_description",
+  "ThemeAuthor": "dragonish",
+  "Version": "1.0.0",
+  "MinWoxVersion": "2.4.5",
+  "SchemaVersion": 2,
+  "BaseBackgroundColor": "#000000",
+  "BaseTextColor": "#33FF33",
+  "BaseAccentColor": "#00FFFF",
+  "AppBackgroundColor": "transparent",
+  "AppBorderWidth": 0,
+  "AppBorderRadius": 0,
+  "AppPaddingTop": 4,
+  "AppPaddingRight": 8,
+  "AppPaddingBottom": 0,
+  "AppPaddingLeft": 8,
+  "QueryBoxBackgroundColor": "#000000",
+  "QueryBoxFontColor": "#33FF33",
+  "QueryBoxCursorColor": "#33FF33",
+  "QueryBoxBorderRadius": 0,
+  "QueryBoxTextSelectionBackgroundColor": "#15D00D",
+  "QueryBoxTextSelectionColor": "#000000",
+  "ResultItemTitleColor": "#33FF33",
+  "ResultItemSubTitleColor": "#1F8F1F",
+  "ResultItemTailTextColor": "#00FFFF",
+  "ResultItemBorderRadius": 0,
+  "ResultItemPaddingLeft": 13,
+  "ResultItemPaddingRight": 12,
+  "ResultItemHoverBackgroundColor": "#061606",
+  "ResultItemActiveBackgroundColor": "#15D00D",
+  "ResultItemActiveTitleColor": "#000000",
+  "ResultItemActiveSubTitleColor": "#003300",
+  "ResultItemActiveTailTextColor": "#000000",
+  "ResultItemActiveIndicatorColor": "#00FFFF",
+  "ResultItemActiveIndicatorWidth": 4,
+  "ResultItemActiveIndicatorInsetLeft": 4,
+  "ResultItemActiveIndicatorInsetTop": 5,
+  "ResultItemActiveIndicatorInsetBottom": 5,
+  "ResultContainerPaddingTop": 8,
+  "ResultContainerPaddingBottom": 8,
+  "ToolbarBackgroundColor": "#000000",
+  "ToolbarBorderColor": "#1F8F1F",
+  "ToolbarFontColor": "#33FF33",
+  "ToolbarPrimaryFontColor": "#33FF33",
+  "ToolbarHotkeyBackgroundColor": "#000000",
+  "ToolbarHotkeyBorderColor": "#1F8F1F",
+  "ToolbarHotkeyFontColor": "#00FFFF",
+  "ToolbarPrimaryHotkeyBackgroundColor": "#00FFFF",
+  "ToolbarPrimaryHotkeyBorderColor": "#00FFFF",
+  "ToolbarPrimaryHotkeyFontColor": "#000000",
+  "PreviewBackgroundColor": "#000000",
+  "PreviewBorderColor": "#1F8F1F",
+  "PreviewBorderRadius": 0,
+  "PreviewSplitLineColor": "#1F8F1F",
+  "PreviewPropertyTitleColor": "#00FFFF",
+  "PreviewTagBackgroundColor": "#15D00D",
+  "PreviewTagBorderColor": "#33FF33",
+  "PreviewTagBorderRadius": 0,
+  "PreviewTagFontColor": "#000000",
+  "ActionContainerBackgroundColor": "#000000F2",
+  "ActionContainerBorderWidth": 0,
+  "ActionContainerBorderRadius": 0,
+  "ActionContainerDividerColor": "#1F8F1F",
+  "ActionContainerHeaderFontColor": "#00FFFF",
+  "ActionQueryBoxBackgroundColor": "#000000",
+  "ActionQueryBoxBorderRadius": 0,
+  "ActionItemFontColor": "#33FF33",
+  "ActionItemBorderRadius": 0,
+  "ActionItemHotkeyBackgroundColor": "#000000",
+  "ActionItemHotkeyBorderColor": "#1F8F1F",
+  "ActionItemHotkeyFontColor": "#00FFFF",
+  "ActionItemActiveBackgroundColor": "#00FFFF",
+  "ActionItemActiveFontColor": "#000000",
+  "ActionItemActiveHotkeyBackgroundColor": "#000000",
+  "ActionItemActiveHotkeyBorderColor": "#00FFFF",
+  "ActionItemActiveHotkeyFontColor": "#00FFFF",
+  "RefinementButtonBackgroundColor": "#000000",
+  "RefinementButtonBorderColor": "#1F8F1F",
+  "RefinementButtonFontColor": "#33FF33",
+  "RefinementButtonIconColor": "#33FF33",
+  "RefinementButtonHoverBackgroundColor": "#061606",
+  "RefinementButtonActiveBackgroundColor": "#15D00D",
+  "RefinementButtonActiveBorderColor": "#33FF33",
+  "RefinementButtonActiveFontColor": "#000000",
+  "RefinementButtonActiveIconColor": "#000000",
+  "RefinementButtonActiveHoverBackgroundColor": "#00FFFF",
+  "GlanceFontColor": "#00FFFF",
+  "GlanceIconColor": "#00FFFF",
+  "AttentionFontColor": "#CC66FF",
+  "AttentionIconColor": "#CC66FF",
+  "OverlayBackgroundColor": "#000000",
+  "OverlayFontColor": "#33FF33",
+  "SuccessColor": "#33FF33",
+  "WarningColor": "#CC66FF",
+  "WarningTextColor": "#CC66FF",
+  "ScrollbarThumbColor": "#1F8F1F",
+  "ScrollbarThumbHoverColor": "#33FF33",
+  "ScrollbarThumbActiveColor": "#00FFFF",
+  "ScrollbarBorderRadius": 0,
+  "Surfaces": {
+    "App": {
+      "ContentInsets": {
+        "Top": 31,
+        "Right": 13,
+        "Bottom": 14,
+        "Left": 13
+      },
+      "Frame": {
+        "Source": "assets/launcher-frame.png",
+        "Mode": "nineSlice",
+        "Slice": {
+          "Top": 62,
+          "Right": 26,
+          "Bottom": 28,
+          "Left": 162
+        },
+        "Insets": {
+          "Top": 31,
+          "Right": 13,
+          "Bottom": 14,
+          "Left": 81
+        }
+      }
+    },
+    "QueryBox": {
+      "Frame": {
+        "Source": "assets/query-frame.png",
+        "Mode": "nineSlice",
+        "Slice": {
+          "Top": 6,
+          "Right": 6,
+          "Bottom": 6,
+          "Left": 6
+        },
+        "Insets": {
+          "Top": 3,
+          "Right": 3,
+          "Bottom": 3,
+          "Left": 3
+        }
+      }
+    },
+    "ResultItemActive": {
+      "Frame": {
+        "Source": "assets/selected-frame.png",
+        "Mode": "nineSlice",
+        "Slice": {
+          "Top": 6,
+          "Right": 6,
+          "Bottom": 6,
+          "Left": 6
+        },
+        "Insets": {
+          "Top": 3,
+          "Right": 3,
+          "Bottom": 3,
+          "Left": 3
+        }
+      }
+    },
+    "ActionContainer": {
+      "Frame": {
+        "Source": "assets/action-frame.png",
+        "Mode": "nineSlice",
+        "Slice": {
+          "Top": 6,
+          "Right": 6,
+          "Bottom": 6,
+          "Left": 6
+        },
+        "Insets": {
+          "Top": 3,
+          "Right": 3,
+          "Bottom": 3,
+          "Left": 3
+        }
+      }
+    }
+  },
+  "I18n": {
+    "en_US": {
+      "theme_name": "Retro Terminal",
+      "theme_description": "Retro terminal green on black: monospace type, cyan links, and a stepped pixel frame with a >█ tab."
+    },
+    "zh_CN": {
+      "theme_name": "复古终端",
+      "theme_description": "复古终端绿配黑：等宽字体、青色链接，阶梯像素边框配 >█ 标签。"
+    }
+  }
+}
